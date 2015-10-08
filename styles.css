@@ -1,0 +1,349 @@
+#brown-line {
+  left: 0;
+  position: relative;
+  top: 0; }
+  #brown-line .route {
+    background-color: #744200; }
+  #brown-line .arrow:after {
+    background-color: #744200; }
+
+#b1 {
+  border-radius: 0 100px 0 0;
+  height: 100px;
+  left: 350px;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 100px; }
+  #b1:before {
+    background-color: #fff;
+    border-radius: 0 80px 0 0;
+    content: " ";
+    display: block;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 80px; }
+
+#b2 {
+  height: 20px;
+  left: 450px;
+  position: absolute;
+  width: 250px; }
+
+#b3 {
+  border-radius: 0 100px 0 0;
+  height: 100px;
+  left: 700px;
+  position: absolute;
+  width: 100px; }
+  #b3:before {
+    background-color: #fff;
+    border-radius: 0 80px 0 0;
+    content: " ";
+    display: block;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 80px; }
+
+#b4 {
+  height: 400px;
+  left: 350px;
+  position: absolute;
+  top: 100px;
+  width: 20px; }
+
+#b5 {
+  height: 400px;
+  left: 780px;
+  position: absolute;
+  top: 100px;
+  width: 20px; }
+
+#orange-line {
+  left: 0;
+  position: relative;
+  top: 22px; }
+  #orange-line .route {
+    background-color: #F37737; }
+  #orange-line .arrow {
+    transform: rotate(180deg); }
+    #orange-line .arrow:after {
+      background-color: #F37737; }
+
+#o1 {
+  border-radius: 0 80px 0 0;
+  height: 78px;
+  left: 372px;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 80px; }
+  #o1:before {
+    background-color: #fff;
+    border-radius: 0 60px 0 0;
+    content: " ";
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 60px; }
+
+#o2 {
+  height: 20px;
+  left: 450px;
+  position: absolute;
+  width: 248px; }
+
+#o3 {
+  border-radius: 0 80px 0 0;
+  height: 78px;
+  left: 698px;
+  position: absolute;
+  width: 80px; }
+  #o3:before {
+    background-color: #fff;
+    border-radius: 0 60px 0 0;
+    content: " ";
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 60px; }
+
+#o4 {
+  height: 400px;
+  left: 372px;
+  position: absolute;
+  top: 78px;
+  width: 20px; }
+
+#o5 {
+  height: 400px;
+  left: 758px;
+  position: absolute;
+  top: 78px;
+  width: 20px; }
+
+#green-line {
+  left: 0;
+  position: relative;
+  top: 44px; }
+  #green-line .route {
+    background-color: #01A951; }
+
+#g1 {
+  height: 20px;
+  left: 150px;
+  position: absolute;
+  width: 300px; }
+  #g1:after, #g1:before {
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0; }
+  #g1:after {
+    transform: rotate(180deg);
+    border-width: 18px;
+    border-left-color: #01A951;
+    left: -32px;
+    top: -8px; }
+
+#g2 {
+  height: 20px;
+  left: 450px;
+  position: absolute;
+  width: 248px; }
+
+#g3 {
+  border-radius: 0 60px 0 0;
+  height: 58px;
+  left: 696px;
+  position: absolute;
+  width: 60px; }
+  #g3:before {
+    background-color: #fff;
+    border-radius: 0 40px 0 0;
+    content: " ";
+    display: block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 40px; }
+
+#g4 {
+  height: 398px;
+  left: 736px;
+  position: absolute;
+  top: 58px;
+  width: 20px; }
+
+#pink-line {
+  left: 0;
+  position: relative;
+  top: 66px; }
+  #pink-line .route {
+    background-color: #F48BB6; }
+  #pink-line .arrow {
+    transform: rotate(180deg);
+    left: 158px; }
+    #pink-line .arrow:after {
+      background-color: #F48BB6; }
+  #pink-line .circle-flipped {
+    left: 22px; }
+
+#p1 {
+  height: 20px;
+  left: 150px;
+  position: absolute;
+  width: 303px; }
+  #p1:after, #p1:before {
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0; }
+  #p1:after {
+    transform: rotate(180deg);
+    border-width: 18px;
+    border-left-color: #F48BB6;
+    left: -32px;
+    top: -8px; }
+
+#p2 {
+  height: 20px;
+  left: 453px;
+  position: absolute;
+  width: 245px; }
+
+#p3 {
+  border-radius: 0 40px 0 0;
+  height: 38px;
+  left: 694px;
+  position: absolute;
+  width: 40px; }
+  #p3:before {
+    background-color: #fff;
+    border-radius: 0 20px 0 0;
+    content: " ";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 20px; }
+
+#p4 {
+  height: 396px;
+  left: 714px;
+  position: absolute;
+  top: 38px;
+  width: 20px; }
+
+#p5 {
+  height: 396px;
+  left: 394px;
+  position: absolute;
+  top: 38px;
+  width: 20px; }
+
+#p6 {
+  border-radius: 0 40px 0 0;
+  height: 38px;
+  left: 374px;
+  position: absolute;
+  width: 40px; }
+  #p6:before {
+    background: linear-gradient(to right, #F37737 90%, #fff 0%);
+    border-radius: 0 20px 0 0;
+    content: " ";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 20px; }
+
+/********************************************
+  Global
+*********************************************/
+li {
+  list-style: none; }
+
+#cta {
+  padding-top: 50px;
+  padding-left: 50px; }
+
+/********************************************
+  Arrows
+*********************************************/
+.arrow {
+  height: 20px;
+  left: 160px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 20px; }
+  .arrow:before {
+    background-color: #fff;
+    content: " ";
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px; }
+  .arrow:after {
+    content: " ";
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px; }
+
+/********************************************
+  Circle
+*********************************************/
+.circle {
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 20px;
+  height: 20px;
+  left: 25px;
+  position: relative;
+  top: -5px;
+  width: 20px; }
+  .circle:after {
+    background-color: #fff;
+    border: 5px solid #000;
+    border-bottom: 0;
+    border-top: 0;
+    content: " ";
+    height: 7px;
+    position: absolute;
+    top: 18px;
+    width: 10px; }
+
+.circle-flipped {
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 20px;
+  height: 20px;
+  left: 25px;
+  position: relative;
+  top: -5px;
+  width: 20px; }
+  .circle-flipped:after {
+    background-color: #fff;
+    border: 5px solid #000;
+    border-bottom: 0;
+    border-top: 0;
+    content: " ";
+    height: 8px;
+    position: absolute;
+    top: -5px;
+    width: 10px; }

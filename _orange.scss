@@ -1,0 +1,80 @@
+#orange-line {
+  left: 0;
+  position: relative;
+  top: 22px;
+
+  .route {
+    background-color: $orange;
+  }
+
+  .arrow {
+    transform: rotate(180deg);
+    &:after {
+      background-color: $orange;
+    }
+  }
+}
+
+#o1 {
+  border-radius: 0 80px 0 0;
+  height: 78px;
+  left: 372px;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 80px;
+
+  &:before {
+    background-color: $white;
+    border-radius: 0 60px 0 0;
+    content: " ";
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 60px;
+  }
+}
+
+#o2 {
+  height: 20px;
+  left: 450px;
+  position: absolute;
+  width: 248px;
+}
+
+#o3 {
+  border-radius: 0 80px 0 0;
+  height: 78px;
+  left: 698px;
+  position: absolute;
+  width: 80px;
+
+  &:before {
+    background-color: $white;
+    border-radius: 0 60px 0 0;
+    content: " ";
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 60px;
+  }
+}
+
+#o4 {
+  height: 400px;
+  left: 372px;
+  position: absolute;
+  top: 78px;
+  width: 20px;
+}
+
+#o5 {
+  height: 400px;
+  left: 758px;
+  position: absolute;
+  top: 78px;
+  width: 20px;
+}
