@@ -1,0 +1,113 @@
+.arrow-1 {
+  height: 20px;
+  left: 140px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 20px;
+
+  &:before {
+    background-color: $white;
+    content: " ";
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px;
+  }
+
+  &:after {
+    content: " ";
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px;
+  }
+}
+
+.arrow-2 {
+  height: 20px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 260px;
+  transform: rotate(-90deg);
+  width: 20px;
+
+  &:before {
+    background-color: $white;
+    content: " ";
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+
+  &:after {
+    content: " ";
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+}
+
+.arrow-3 {
+  height: 20px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  transform: rotate(-90deg);
+  width: 20px;
+
+  &:before {
+    background-color: $white;
+    content: " ";
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+
+  &:after {
+    content: " ";
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+}
+
+.arrow-4 {
+  height: 20px;
+  left: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 20px;
+
+  &:before {
+    background-color: $white;
+    content: " ";
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px;
+  }
+
+  &:after {
+    content: " ";
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px;
+  }
+}

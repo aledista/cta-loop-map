@@ -7,7 +7,7 @@ var scsslint = require('gulp-scss-lint');
 var livereload = require('gulp-livereload');
 
 gulp.task('sass', function () {
-  gulp.src(['styles.scss'])
+  gulp.src(['./sass/styles.scss'])
     .pipe(sass()
       .on('error', gutil.log))
     .pipe(gulp.dest('.'))
@@ -22,7 +22,7 @@ gulp.task('reload', function () {
 
 gulp.task('scss-lint', function () {
   gulp.src([
-    '*.scss'
+    './sass/*.scss',
   ])
   .pipe(scsslint({
     'config': '.scss-lint.yml'
@@ -32,7 +32,7 @@ gulp.task('scss-lint', function () {
 gulp.task('watch', function () {
   livereload.listen();
   gulp.watch('*.html', ['reload']);
-  gulp.watch('*.scss', ['sass']);
+  gulp.watch('./sass/**/*.scss', ['sass']);
 });
 
 gulp.task('build', ['sass']);

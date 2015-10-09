@@ -1,4 +1,4 @@
 # cta-loop-map
-Chicago Transit Authority made with Sass 3.4
+CTA map made with Sass 3.4
 
-Inspired by:
+![alt tag](https://raw.githubusercontent.com/aledista/cta-loop-map/master/screenshot.png)

@@ -1,0 +1,328 @@
+.stop {
+  background-color: $white;
+  border: 5px solid $black;
+  border-radius: 20px;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+
+  &:after {
+    background-color: $white;
+    border: 5px solid $black;
+    position: absolute;
+  }
+}
+
+.stop-small {
+  background-color: $white;
+  border: 2px solid $black;
+  border-radius: 14px;
+  position: absolute;
+}
+
+.stop-name {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 1em;
+}
+
+.direction {
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 1.05em;
+}
+
+.stop-1-bottom {
+  height: 20px;
+  left: 25px;
+  top: -5px;
+  width: 20px;
+
+  &:after {
+    border-bottom: 0;
+    border-top: 0;
+    content: " ";
+    height: 7px;
+    top: 18px;
+    width: 10px;
+  }
+}
+
+.stop-1-top {
+  height: 20px;
+  left: 25px;
+  top: -5px;
+  width: 20px;
+
+  &:after {
+    border-bottom: 0;
+    border-top: 0;
+    content: " ";
+    height: 8px;
+    top: -5px;
+    width: 10px;
+  }
+}
+
+.stop-2-left {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    right: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-2-right {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    left: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-3-bottom {
+  height: 20px;
+  left: 195px;
+  top: -5px;
+  width: 20px;
+  z-index: 1;
+}
+
+.stop-3-top {
+  height: 20px;
+  left: 195px;
+  top: -5px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    background-color: $white;
+    border-bottom: 2px solid $black;
+    border-left: 5px solid $black;
+    border-right: 5px solid $black;
+    border-top: 2px solid $black;
+    content: " ";
+    height: 3px;
+    position: absolute;
+    top: -5px;
+    width: 10px;
+  }
+}
+
+.stop-4 {
+  height: 14px;
+  left: 1px;
+  top: 20px;
+  width: 14px;
+  z-index: 1;
+}
+
+.stop-5-left {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    right: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-5-right {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    left: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-6-left {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    right: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-6-right {
+  height: 20px;
+  left: -6px;
+  top: 110px;
+  width: 20px;
+  z-index: 1;
+
+  &:after {
+    border-left: 0;
+    border-right: 0;
+    content: " ";
+    height: 10px;
+    left: -5px;
+    top: 0;
+    width: 8px;
+  }
+}
+
+.stop-7 {
+  height: 14px;
+  left: 1px;
+  top: 110px;
+  width: 14px;
+  z-index: 1;
+}
+
+.stop-8 {
+  height: 14px;
+  left: 25px;
+  top: 1px;
+  width: 14px;
+  z-index: 1;
+}
+
+#stops {
+  position: relative;
+}
+
+#s0 {
+  left: 478px;
+  position: absolute;
+  top: -60px;
+  width: 100px;
+
+  .wheelchair {
+    left: 65px;
+    position: absolute;
+    top: 23px;
+  }
+}
+
+#s1 {
+  left: 150px;
+  position: absolute;
+  text-align: right;
+  top: 186px;
+  width: 190px;
+
+  .wheelchair {
+    left: 5px;
+    position: absolute;
+    top: -3px;
+  }
+}
+
+#s2 {
+  left: 810px;
+  position: absolute;
+  text-align: left;
+  top: 110px;
+  width: 190px;
+}
+
+#s3 {
+  left: 810px;
+  position: absolute;
+  text-align: left;
+  top: 225px;
+  width: 190px;
+}
+
+#s4 {
+  left: 810px;
+  position: absolute;
+  text-align: left;
+  top: 365px;
+  width: 190px;
+}
+
+#s5 {
+  left: 150px;
+  position: absolute;
+  text-align: right;
+  top: 435px;
+  width: 190px;
+}
+
+#s6 {
+  color: $green;
+  left: -70px;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  width: 190px;
+}
+
+#s7 {
+  color: $pink;
+  left: -70px;
+  position: absolute;
+  text-align: right;
+  top: 65px;
+  width: 190px;
+}
+
+#s8 {
+  left: 410px;
+  position: absolute;
+  text-align: center;
+  top: 480px;
+  width: 190px;
+  z-index: 3;
+}
+
+#s9 {
+  left: 650px;
+  position: absolute;
+  text-align: left;
+  top: -60px;
+  width: 190px;
+}

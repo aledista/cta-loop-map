@@ -1,6 +1,6 @@
 {
-  "name": "simple-solar-system",
-  "repository": "https://github.com/aledista/simple-solar-system",
+  "name": "cta-loop-map",
+  "repository": "https://github.com/aledista/cta-loop-map",
   "version": "0.0.1",
   "engines": {
     "node": "0.10.x"

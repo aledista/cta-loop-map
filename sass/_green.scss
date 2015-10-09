@@ -6,6 +6,18 @@
   .route {
     background-color: $green;
   }
+
+  .stop-4 {
+    top: 22px;
+  }
+
+  .stop-5-right {
+    top: 133px;
+  }
+
+  .stop-6-right {
+    top: 244px;
+  }
 }
 
 #g1 {
@@ -24,11 +36,11 @@
   }
 
   &:after {
-    transform: rotate(180deg);
-    border-width: 18px;
     border-left-color: $green;
+    border-width: 18px;
     left: -32px;
     top: -8px;
+    transform: rotate(180deg);
   }
 }
 
@@ -60,7 +72,7 @@
 }
 
 #g4 {
-  height: 398px;
+  height: 600px;
   left: 736px;
   position: absolute;
   top: 58px;

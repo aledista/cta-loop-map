@@ -1,0 +1,46 @@
+#red-line {
+  position: relative;
+  top: -74px;
+
+  .route {
+    background-color: $red;
+  }
+}
+
+#r1 {
+  height: 70px;
+  left: 625px;
+  position: absolute;
+  width: 20px;
+}
+
+#r2 {
+  height: 612px;
+  left: 625px;
+  position: absolute;
+  top: 164px;
+  width: 20px;
+  z-index: -2;
+}
+
+#r3 {
+  background: linear-gradient($brown 50%, $white 50%);
+  background-repeat: repeat-y;
+  background-size: 100% 12%;
+  height: 70px;
+  left: 603px;
+  position: absolute;
+  width: 20px;
+}
+
+#r4 {
+  background: linear-gradient($brown 50%, $white 50%);
+  background-repeat: repeat-y;
+  background-size: 100% 1.4%;
+  height: 612px;
+  left: 603px;
+  position: absolute;
+  top: 164px;
+  width: 20px;
+  z-index: -2;
+}

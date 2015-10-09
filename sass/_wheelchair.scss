@@ -1,0 +1,88 @@
+.wheelchair {
+  background-color: $white;
+  border: 2px solid $black;
+  border-radius: 5px;
+  display: block;
+  height: 23px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  transform: rotateY(180deg);
+  width: 23px;
+  z-index: 1;
+
+  li {
+    background-color: $black;
+    display: block;
+    position: absolute;
+  }
+
+  .wheel {
+    background-color: transparent;
+    border: 2px solid $black;
+    border-radius: 100%;
+    height: 13px;
+    left: 7px;
+    top: 10px;
+    width: 13px;
+    z-index: 1;
+
+    &:before {
+      background: $white;
+      content: "";
+      display: block;
+      height: 9px;
+      left: -3px;
+      position: absolute;
+      top: -3px;
+      width: 13px;
+    }
+  }
+
+  .legs {
+    border-radius: 2px;
+    height: 2px;
+    left: 2px;
+    top: 19px;
+    transform: rotate(-250deg);
+    width: 9px;
+    z-index: 1;
+  }
+
+  .arms {
+    height: 2px;
+    left: 9px;
+    top: 11px;
+    width: 10px;
+    z-index: 1;
+  }
+
+  .thighs {
+    border-radius: 0 0 2px 0;
+    height: 3px;
+    left: 8px;
+    top: 15px;
+    width: 10px;
+    z-index: 1;
+  }
+
+  .back {
+    border-radius: 2px 2px 0 0;
+    height: 8px;
+    left: 16px;
+    top: 8px;
+    transform: rotate(10deg);
+    width: 3px;
+    z-index: 1;
+
+    &:before {
+      background: $black;
+      border-radius: 100%;
+      content: '';
+      height: 4px;
+      left: -1px;
+      position: absolute;
+      top: -5px;
+      width: 4px;
+    }
+  }
+}
